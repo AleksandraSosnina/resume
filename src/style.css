@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.my_name {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contact_info {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+
+}
+.see_more {
+    color: black;
+    text-decoration: underline;
+    margin-top: auto;
+}
+
+.block_info {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    gap: 32px;
+    line-height: 25px;
+
+
+
+}
+
+.block_photo_text {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: flex-end;
+}
+
+.who_i_am, .where_study, .where_work, .contacts {
+    width: 300px;
+    transition: transform 0.2s;
+    margin-left: 15px;
+    padding: 20px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.who_i_am:hover, .where_study:hover, .where_work:hover, .contacts:hover, .photo:hover {
+    transform: scale(1.05);
+}
+.who_i_am {
+    background-color: #f2f2f2;
+}
+
+.where_study {
+
+background-color: white;
+}
+
+.where_work {
+    background-color: white;
+}
+
+.contacts {
+    background-color: #b1cccb;
+}
+.block_title {
+    color: black;
+}
+.photo {
+    width: 285px;
+    height: 407px;
+}
+.block_photo {
+    display: flex;
+    align-items: center;
+}
+.arrow {
+    width: 80px;
+    height: 50px;
+    margin-right: 100px;
+
+}
+.page {
+    display: flex;
+}
+
+
